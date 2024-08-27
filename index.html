@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stp game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="result">result</h1>
+      <div class="game">
+        <div class="player1">
+          <img id="paper" style="width: 200px" src="./assets/paper.png" />
+          <h3 style="margin-left: 10px; padding: 20px">player 1</h3>
+        </div>
+        <div class="player2">
+          <img id="scissor" style="width: 200px" src="./assets/scissor.png" />
+          <h3 style="margin-left: 20px; padding: 20px">computer</h3>
+        </div>
+      </div>
+      <button class="play-button" onclick="play()">Play</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
